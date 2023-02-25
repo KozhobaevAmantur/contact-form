@@ -1,0 +1,41 @@
+* {
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    width: 100%;
+    place-items: center;
+    background: azure;
+    display: grid;
+    align-items: center;
+}
+
+form {
+    background: aquamarine;
+    width: 450px;
+    border-radius: 35px;
+    height: 400px;
+    padding: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    margin: 50px;
+    box-shadow: 5px 5px 5px 5px;
+}
+
+form h1 {
+    color: blue;
+    text-align: center;
+    font-size: 25px;
+}
+
+form h3 {
+    color: brown;
+    margin: 25px;
+}
+
+.name {
+    padding-left: 50px;
+    font-weight: bold;
+}
